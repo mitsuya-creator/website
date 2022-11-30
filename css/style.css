@@ -1,0 +1,57 @@
+@font-face{
+  font-family: linkinpark;
+  src: url(../fonts/linkinpark.ttf);
+}
+
+
+html, body{
+  height: 100%;
+}
+.bg-image{
+  background-image: url('../images/bg-image.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1, span.description, div.home{
+    background-color: #666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    margin: 0;
+}
+h1{
+  font-size: 200%;
+  font-family: linkinpark;
+}
+div.home a, div.social-bg a{
+  text-decoration: none;
+  background-color: #666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+div.home{
+  font-size: 100%;
+  font-family: linkinpark;
+  margin-top: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: 25%;
+  height: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.social-bg{
+  margin-top: 20px;
+}
