@@ -1,5 +1,5 @@
 # WEBSITE_PORTFOLIO
-This Repository created for learning about web developer and Run some tasks >if needed  only.
+This Repository created for learning about web developer and Run some tasks > if needed  only.
 
 ## Architecture
 Those webpage was built using 
@@ -15,5 +15,5 @@ use this command if you wanna clone
 
 or you can download ZIP on right corner directly
 
-# Contact
+## Contact
 you can touch me in [mitsuya](https://mitsuya-creator.github.io/website/)
