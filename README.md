@@ -11,7 +11,10 @@ Those webpage was built using
 In this Repository , all opensource . you can clone or download, edit or whatever you want.
 use this command if you wanna clone 
 
-`git clone https://github.com/mitsuya-creator/website.git`
+```
+git clone https://github.com/mitsuya-creator/website.git
+
+```
 
 or you can download ZIP on right corner directly
 
