@@ -1,9 +1,15 @@
+/* reset pages margin padding */
+*{
+   margin:0;
+   padding:0;
+}
+
 @font-face{
   font-family: linkinpark;
   src: url(../fonts/linkinpark.ttf);
 }
 
-
+/* style landingpage */
 html, body{
   background: url('../images/bg-image.webp') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -58,3 +64,30 @@ div.home{
 div.social-bg{
   margin-top: 20px;
 }
+/* end of style landing page */
+
+/* style navbar */
+.nav-pills .nav-item button.active{
+   background-color: #666;
+   color:white;
+   border-bottom: 2px solid #fff;
+   border-radius: 2px;
+}
+.nav-pills .nav-item button{
+   background-color: #666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+   
+}
+
+#navigasi{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #060606;
+}
+/* end of style navbar */
