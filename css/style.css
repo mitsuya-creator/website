@@ -10,7 +10,7 @@
 }
 
 /* style landingpage */
-html, body{
+body.index-home{
   background: url('../images/bg-image.webp') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -83,19 +83,31 @@ div.social-bg{
 }
 
 #navigasi{
-  overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
   border-radius: 1px;
   background-color: #060606;
+  z-index: 1000;
 }
 /* end of style navbar */
 /* home content */
 .tab-content{
   margin: 15px 10px;
+  height: 150vh;
 }
-h2{
-  font-family: linkinpark;
+div.profile-me{
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 85% 15% 32% 68% / 43% 35% 65% 57% ;
+  margin: auto;
+}
+div.profile-me img{
+  width: 250px;
+  height: 250px;
+}
+div#pills-about{
+  z-index: 1;
 }
 /* end of home content */
