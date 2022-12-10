@@ -3,6 +3,9 @@
   margin:0;
   padding:0;
 }
+*:focus{
+  outline: none;
+}
 
 @font-face{
   font-family: linkinpark;
@@ -111,3 +114,9 @@ div#pills-about{
   z-index: 1;
 }
 /* end of home content */
+
+/* style contact content */
+div.dec-contact{
+  margin-top: 20px;
+}
+/* end of contact content */
